@@ -1,3 +1,3 @@
 # advanced-dart
 
-- helloworld: Dart console app
+- helloworld: Dart console app.
