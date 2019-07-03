@@ -27,7 +27,7 @@ main(List<String> arguments) {
 
   print(name.indexOf('v'));
 
-  List<String> l = name.split(new RegExp(r"\s"));
+  List<String> l = name.split(RegExp(r"\s"));
   print('before sort(): ' + l.toString());
   print(l..sort());  //print at same line
   print('after sort(): ' + l.toString());
