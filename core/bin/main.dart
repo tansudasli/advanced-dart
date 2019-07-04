@@ -39,7 +39,10 @@ main(List<String> arguments) {
   //class
   List<Product> products = List();
   products.add(Product(100, 'nike airmax', 250.05));
+  products.add(Product(100, 'nike zoom', 150.05));
+  products.add(Product(100, 'gucci bag', 2150.05));
 
+  print('\n${Product.counter} items added into basket\n');
   products.forEach((e) => e.addToBasket());
 
 
