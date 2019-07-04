@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4ea38b52-836a-4a04-82d2-0198ae743751" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/core/bin/generics.dart" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/bin/main.dart" beforeDir="false" afterPath="$PROJECT_DIR$/core/bin/main.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/lib/Product.dart" beforeDir="false" afterPath="$PROJECT_DIR$/core/lib/Product.dart" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -18,14 +17,23 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/core/bin/main.dart">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="428">
-              <caret line="48" column="1" lean-forward="true" selection-start-line="48" selection-start-column="1" selection-end-line="48" selection-end-column="1" />
+            <state relative-caret-position="655">
+              <caret line="49" lean-forward="true" selection-start-line="49" selection-end-line="49" />
               <folding>
                 <element signature="e#0#40#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/core/bin/generics.dart">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="60">
+              <caret line="4" column="52" selection-start-line="4" selection-start-column="52" selection-end-line="4" selection-end-column="52" />
             </state>
           </provider>
         </entry>
@@ -122,6 +130,7 @@
         <option value="$PROJECT_DIR$/core/bin/Product.dart" />
         <option value="$PROJECT_DIR$/core/lib/Product.dart" />
         <option value="$PROJECT_DIR$/core/bin/main.dart" />
+        <option value="$PROJECT_DIR$/core/bin/generics.dart" />
       </list>
     </option>
   </component>
@@ -199,9 +208,14 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Dart Command Line App.main.dart">
+  <component name="RunManager" selected="Dart Command Line App.generics.dart">
     <configuration name="collections.dart" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application" temporary="true" nameIsGenerated="true">
       <option name="filePath" value="$PROJECT_DIR$/core/bin/collections.dart" />
+      <option name="workingDirectory" value="$PROJECT_DIR$/core" />
+      <method v="2" />
+    </configuration>
+    <configuration name="generics.dart" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application" temporary="true" nameIsGenerated="true">
+      <option name="filePath" value="$PROJECT_DIR$/core/bin/generics.dart" />
       <option name="workingDirectory" value="$PROJECT_DIR$/core" />
       <method v="2" />
     </configuration>
@@ -222,6 +236,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Dart Command Line App.generics.dart" />
         <item itemvalue="Dart Command Line App.http.dart" />
         <item itemvalue="Dart Command Line App.collections.dart" />
         <item itemvalue="Dart Command Line App.user-input.dart" />
@@ -238,7 +253,7 @@
       <workItem from="1562139186917" duration="6201000" />
       <workItem from="1562184148807" duration="530000" />
       <workItem from="1562227018235" duration="109000" />
-      <workItem from="1562227158904" duration="1560000" />
+      <workItem from="1562227158904" duration="4201000" />
     </task>
     <task id="LOCAL-00001" summary="INitialize">
       <created>1562139568358</created>
@@ -345,11 +360,18 @@
       <option name="project" value="LOCAL" />
       <updated>1562228010065</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="lib/Product.dart class updated">
+      <created>1562229666249</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1562229666249</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="8400000" />
+    <option name="totallyTimeSpent" value="11041000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1406" height="877" extended-state="0" />
@@ -406,7 +428,8 @@
     <MESSAGE value="minor update" />
     <MESSAGE value="renamed" />
     <MESSAGE value="lib/Product.dart class added and used in bin/main.dart" />
-    <option name="LAST_COMMIT_MESSAGE" value="lib/Product.dart class added and used in bin/main.dart" />
+    <MESSAGE value="lib/Product.dart class updated" />
+    <option name="LAST_COMMIT_MESSAGE" value="lib/Product.dart class updated" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/.gitignore">
@@ -482,11 +505,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/core/bin/main.dart">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="428">
-          <caret line="48" column="1" lean-forward="true" selection-start-line="48" selection-start-column="1" selection-end-line="48" selection-end-column="1" />
+        <state relative-caret-position="655">
+          <caret line="49" lean-forward="true" selection-start-line="49" selection-end-line="49" />
           <folding>
             <element signature="e#0#40#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/bin/generics.dart">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="52" selection-start-line="4" selection-start-column="52" selection-end-line="4" selection-end-column="52" />
         </state>
       </provider>
     </entry>
