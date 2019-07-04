@@ -1,4 +1,5 @@
 import 'package:core/core.dart' as core;
+import 'package:core/Product.dart';
 
 // we are importing PROJECT_FOLDER/lib/core.dart
 
@@ -27,6 +28,7 @@ main(List<String> arguments) {
 
   print(name.indexOf('v'));
 
+  //list, regex
   List<String> l = name.split(RegExp(r"\s"));
   print('before sort(): ' + l.toString());
   print(l..sort());  //print at same line
@@ -34,6 +36,11 @@ main(List<String> arguments) {
   l.sort((a, b) => a.length - b.length);
   print('after length sort(): ' + l.toString());
 
+  //class
+  List<Product> products = List();
+  products.add(Product(100, 'nike airmax', 250.05));
+
+  products.forEach((e) => e.addToBasket());
 
 
 }
